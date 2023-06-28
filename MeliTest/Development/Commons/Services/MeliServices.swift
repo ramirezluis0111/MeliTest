@@ -32,7 +32,7 @@ class MeliServices {
         case .ItemInfo:
             urlPath = MeliApis.searchItemInfo(id: itemSearch)
         case .DescriptionItem:
-            urlPath = MeliApis.searchItemInfo(id: itemSearch)
+            urlPath = MeliApis.searchDescription(id: itemSearch)
         }
 
         if let url = URL(string: urlPath) {

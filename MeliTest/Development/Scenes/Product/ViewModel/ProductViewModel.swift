@@ -21,7 +21,7 @@ class ProductViewModel {
         }
     }
 
-    var descriptionModel: Description?{
+    var descriptionModel: Description? {
         didSet {
             uploadView()
         }
